@@ -1,0 +1,63 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #051622; /* Dark background */
+    color: #deb992; /* Light text color */
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    transform: translateZ(100px); /* Bringing the wrapper forward */
+    transition: transform 0.3s ease;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    transform: rotateX(10deg);
+    transform-origin: top; /* Rotating the header for depth */
+}
+
+h1 {
+    color: #1ba098; /* Accent color */
+}
+
+/* Form Styles */
+form {
+    background-color: #0a2e38; /* Slightly lighter than body for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #051622; /* Background color */
+    color: #deb992; /* Text color */
+}
+
+button {
+    background-color: #1ba098; /* Accent color for buttons */
+    color: #051622; /* Dark text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transform: translateZ(50px);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #deb992; /* Lighter color on hover */
+    color: #051622;
+    transform: translateZ(70px); /* Enhancing 3D effect on hover */
+}

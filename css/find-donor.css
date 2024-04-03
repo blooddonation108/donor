@@ -1,0 +1,45 @@
+/* find-donor.css */
+.find-donor {
+    background-color: #0a2e38; /* Slightly lighter than body for contrast */
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.find-donor h2 {
+    color: #1ba098; /* Accent color */
+}
+
+.find-donor form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.find-donor input[type="text"],
+.find-donor input[type="tel"],
+.find-donor input[type="email"],
+.find-donor form select,
+.find-donor form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    background-color: #051622; /* Background color */
+    color: #deb992; /* Text color */
+}
+
+.find-donor form textarea {
+    height: 100px; /* Adjust based on your needs */
+}
+
+.find-donor button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
